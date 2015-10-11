@@ -30,7 +30,7 @@ Let's get some required packages out of the way first::
 
    sudo apt-get update
    sudo apt-get upgrade
-   sudo apt-get install -y python-pip python-dev supervisor cmake libusb-1.0-0-dev libhamlib-utils vorbis-tools git
+   sudo apt-get install -y python-pip python-dev supervisor cmake libusb-1.0-0-dev libhamlib-utils vorbis-tools git libssl-dev libffi-dev
 
 --------------------
 OS optional packages
