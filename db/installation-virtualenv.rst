@@ -35,6 +35,13 @@ Requirements: You will need python, python-virtualenvwrapper, pip and git
      (satnogs-db)$ ./manage.py initialize
 
 
+#. **Set environmental variables**
+
+   Set the environmental variables required for mapbox::
+
+     (satnogs-db)$ export MAPBOX_MAP_ID='pierros.jbf6la1j'
+     (satnogs-db)$ export MAPBOX_TOKEN='your_mapbox_token'
+
 #. **Run it!**
 
   Just run it::
